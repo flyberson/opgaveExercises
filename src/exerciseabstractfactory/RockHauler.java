@@ -8,9 +8,11 @@ package exerciseabstractfactory;
  */
 public class RockHauler extends InfantryUnit{
     
-    public RockHauler() {
-        super(5, 0, 10, 3);
+    public RockHauler(int range, int armor, int hits, int damage) {
+        super(range, armor, hits, damage);
     }
+    
+
     
     
 }

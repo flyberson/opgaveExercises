@@ -34,8 +34,11 @@ public class Abstractfactorymain {
         
         Hunit1 = hf1.createUnit(0);
         Hunit2 = hf1.createUnit(2);
+       
         Ounit1 = of1.createUnit(3);
         Ounit2 = of1.createUnit(4);
+        System.out.println(Hunit2);
+        
         
         while((Hunit1.hits>0 || Hunit2.hits > 0) && (Ounit1.hits>0 || Ounit2.hits>0)){
             if(Hunit1.hits>0){

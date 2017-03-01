@@ -8,9 +8,11 @@ package exerciseabstractfactory;
  */
 public class Archer extends InfantryUnit {
     
-    public Archer() {
-        super(8, 2, 10, 3);
+    public Archer(int range, int armor, int hits, int damage) {
+        super(range, armor, hits, damage);
     }
+    
+   
     
     
 }

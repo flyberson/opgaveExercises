@@ -8,8 +8,10 @@ package exerciseabstractfactory;
  */
 public class Musketeer extends InfantryUnit {
     
-    public Musketeer() {
-        super(8, 2, 10, 5);
+    public Musketeer(int range, int armor, int hits, int damage) {
+        super(range, armor, hits, damage);
     }
+    
+   
     
 }

@@ -8,8 +8,10 @@ package exerciseabstractfactory;
  */
 public class CrossbowMan extends InfantryUnit{
     
-    public CrossbowMan() {
-        super(5, 2, 10, 5);
+    public CrossbowMan(int range, int armor, int hits, int damage) {
+        super(range, armor, hits, damage);
     }
+    
+ 
     
 }

@@ -8,8 +8,10 @@ package exerciseabstractfactory;
  */
 public class SpearThrower extends InfantryUnit{
     
-    public SpearThrower() {
-        super(4, 3, 10, 5);
+    public SpearThrower(int range, int armor, int hits, int damage) {
+        super(range, armor, hits, damage);
     }
+    
+  
     
 }
