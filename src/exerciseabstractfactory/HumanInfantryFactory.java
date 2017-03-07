@@ -15,26 +15,29 @@ public class HumanInfantryFactory extends InfantryFactory{
 
     public InfantryUnit createUnit(int techlevel){
        
-        System.out.println("here1");
+      
        
         switch (techlevel) {
             case 0:
                 RockHauler rh = new RockHauler(2, 0, 10, 2);
-                System.out.println("here2");
-                
+               
+                rh.setRace(1);
                 return rh;
             case 1:
                 SpearThrower st = new SpearThrower(3, 2, 10, 3);
+                st.setRace(1);
                 return st;
             case 2:
                 Archer a = new Archer(4, 2, 10, 4);
-                System.out.println("here3");
+           a.setRace(1);
                 return a;
             case 3:
                 CrossbowMan cbm = new CrossbowMan(4, 2, 10, 5);
+            cbm.setRace(1);
                 return cbm;
             case 4:
                 Musketeer m = new Musketeer(5, 2, 10, 5);
+               m.setRace(1);
                 return m;
             default:
                 break;

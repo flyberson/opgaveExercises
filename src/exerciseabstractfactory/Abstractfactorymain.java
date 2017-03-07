@@ -37,7 +37,10 @@ public class Abstractfactorymain {
        
         Ounit1 = of1.createUnit(3);
         Ounit2 = of1.createUnit(4);
-        System.out.println(Hunit2);
+        System.out.println(Hunit1+Hunit1.getClass().getSimpleName()+Hunit1.getRace());
+        System.out.println(Hunit2+Hunit2.getClass().getSimpleName()+Hunit2.getRace());
+        System.out.println(Ounit1+Ounit1.getClass().getSimpleName()+Ounit1.getRace());
+        System.out.println(Ounit2+Ounit2.getClass().getSimpleName()+Ounit2.getRace());
         
         
         while((Hunit1.hits>0 || Hunit2.hits > 0) && (Ounit1.hits>0 || Ounit2.hits>0)){

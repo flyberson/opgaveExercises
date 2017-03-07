@@ -33,7 +33,7 @@ public abstract class InfantryUnit {
 
     public void takeDamage(int damage) {
         int reduction = (int) (Math.random() * armor);
-        System.out.println(armor);
+       
         if (damage > reduction) {
             hits = hits - (damage - reduction);
             System.out.println("Armor blocked = " + reduction);
