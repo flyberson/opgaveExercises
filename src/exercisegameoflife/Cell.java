@@ -9,6 +9,7 @@ package exercisegameoflife;
 public class Cell {
     int livingNeighbours;
     boolean alive;
+    
     public boolean update(){
         if (livingNeighbours==3 && alive == false){
             alive =true;
@@ -37,6 +38,9 @@ public class Cell {
 
     public void setAlive(boolean alive) {
         this.alive = alive;
+    }
+
+    public Cell() {
     }
     
     
